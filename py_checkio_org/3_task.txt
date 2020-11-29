@@ -1,0 +1,1 @@
+In a given list the first element should become the last one. An empty list or list with only one element should stay the same.
