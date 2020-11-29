@@ -10,4 +10,3 @@ if len(string) % 2 == 0:
         print('This is not palindrome')
 else:
     print('A palindrome can only consist of an even number of elements by definition')
-
