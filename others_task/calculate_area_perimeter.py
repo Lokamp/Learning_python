@@ -3,9 +3,9 @@
 
 def calculate(calculate_type, length, width):
     if calculate_type == 'area':
-        return f'Перметр прямогульника составляет {length * width}'
+        return f'Площадь прямогульника составляет {length * width}'
     elif calculate_type == 'perimeter':
-        return f'Перметр прямогульника составляет {2 * (length + width)}'
+        return f'Периметр прямогульника составляет {2 * (length + width)}'
     else:
         return 'Вы нерпавильно ввели слово'
 
