@@ -9,7 +9,7 @@ def first_func():
 
 
 def call_func_twice(callback):
-    print('Исполняется функция call_func_twice')
+    print(f'Исполняется функция {call_func_twice.__name__}')
     callback()
     callback()
 
