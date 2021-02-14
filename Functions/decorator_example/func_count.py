@@ -1,7 +1,7 @@
 func_count = [0]
 
 
-def count_call_functions(func):
+def function_call_count(func):
     def wrapper(*args):
         func(*args)
         count = func_count.pop(0)
@@ -11,7 +11,7 @@ def count_call_functions(func):
     return wrapper
 
 
-@count_call_functions
+@function_call_count
 def custom_sum(a, b):
     print(f'{a + b}')
 
